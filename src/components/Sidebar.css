@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+.Sidebar{
+  width: 250px;
+  height: 100vh;
+  background-color: #FFFFFF;
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+}
+
+.SidebarButton{
+  position: absolute;
+  top: 20px;
+  right: -16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #ffff;
+  box-shadow: 0 0 4px rgb(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.logo{
+  width: 100px;
+  cursor: pointer;
+}
+
+.logo img {
+  margin: 20px ;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Css A */
+ .nav-text{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 8px 8px 16PX;
+  list-style: none;
+  height: 60px;
+}
+.nav-text a {
+  text-decoration: none;
+  color: #9A9AA9;
+  font-size: 18px;
+  Width: 100%;
+  height: 100%;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+  font-family: 'Nunito', sans-serif;
+} 
+
+.nav-text a:hover{
+  background-color: gradient#0fad98;
+}
+
+.nav-menu-items {
+  width: 100%;
+} 
+
+span{
+  margin-left: 16px;
+} 
